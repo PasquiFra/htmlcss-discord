@@ -145,14 +145,15 @@ section .img {
     flex-basis: 70%;
     height: 100%;
 }
-
 .groups img {
     align-self: flex-start;
     margin-top: -32px;
 }
-
 .friends img {
     margin-top: -32px;
+}
+.community img {
+    margin-top: -15px;
 }
 
 section .about {
