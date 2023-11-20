@@ -2,7 +2,10 @@
 :root {
     --space-sm: 0.5rem;
     --space-md: 1rem;
+    --space-ml: 1.5rem;
     --space-lg: 2rem;
+    --space-lg1: 2.5rem;
+    --space-xl: 3rem;
     --font-sz-med: 1.2rem;
 }
 
@@ -33,21 +36,29 @@
     background-color: lightgray;
 }
 
+.txt-white {
+    color: #fff;
+}
+
+button {
+    cursor:pointer;
+    font-size: var(--font-sz-med);
+    border-radius: 23px;
+    padding: 12px 1.2rem;
+    border-style: none;
+    text-align: center;
+}
+
 /* NAV */
 
 nav {
     min-height: 100px;
     display: flex;
-    background-color: #3161e0;
+    background-color: #255ee9;
     justify-content:center;
     align-items: center;
     padding: 30px 0;
 }
-
-/*nav div {
-    height: 75px;
-    margin: var(--space-sm) 0;
-}*/
 
 .logo {
     text-align: left;
@@ -64,32 +75,27 @@ nav {
     flex-basis: 15%;
 }
 
-button {
-    cursor:pointer;
-    font-size: var(--font-sz-med);
-}
 
 .nav-links button {
     background-color: unset;
     border-style: none;
-    color: #fff;
     padding: var(--space-md);
+    color: #fff;
 }
 
 .login button {
     color: black;
     background-color: #fff;
-    border-radius: 20px;
-    padding: 10px 1rem;
     border-color: #fff;
-    border-style: none;
 }
 
 /* HEADER */
 
 header {
-    background-color: rgba(0, 255, 255, 0.295);
-    min-height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,8 +103,27 @@ header {
 
 header section {
     flex-basis: 40%;
-    background-color: gold;
     height: 250px;
+    text-align: center;
+}
+
+h1 {
+    font-size: var(--space-xl);
+    font-weight: 700;
+    padding: 0 0 var(--space-ml) 0;
+}
+
+p {
+    line-height: var(--space-lg);
+    padding: 0 0 var(--space-ml) 0;
+}
+
+.open-browser {
+    padding: 13px 1.5rem;
+    background-color: #23272a;
+}
+.download-mac {
+    padding: 11px 1.5rem;
 }
 
 /* MAIN */
