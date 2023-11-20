@@ -3,6 +3,7 @@
     --space-sm: 0.5rem;
     --space-md: 1rem;
     --space-lg: 2rem;
+    --font-sz-med: 1.2rem;
 }
 
 /* ------------ CSS RESET ------------*/
@@ -10,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* ------------ UTILITIES ------------ */
@@ -36,32 +38,51 @@
 nav {
     min-height: 100px;
     display: flex;
-    background-color: dodgerblue;
+    background-color: #3161e0;
     justify-content:center;
     align-items: center;
+    padding: 30px 0;
 }
 
-nav div {
+/*nav div {
     height: 75px;
     margin: var(--space-sm) 0;
-}
+}*/
 
 .logo {
     text-align: left;
-    background-color: goldenrod;
     flex-basis: 15%;
 }
 
 .nav-links {
     text-align: center;
-    background-color: rgb(136, 103, 19);
     flex-basis: 40%;
 }
 
 .login {
     text-align: right;
-    background-color: rgb(231, 194, 99);
     flex-basis: 15%;
+}
+
+button {
+    cursor:pointer;
+    font-size: var(--font-sz-med);
+}
+
+.nav-links button {
+    background-color: unset;
+    border-style: none;
+    color: #fff;
+    padding: var(--space-md);
+}
+
+.login button {
+    color: black;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 1rem;
+    border-color: #fff;
+    border-style: none;
 }
 
 /* HEADER */
