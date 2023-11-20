@@ -144,9 +144,17 @@ main > div {
 section .img {
     flex-basis: 70%;
     height: 100%;
+}
+
+.groups img {
     align-self: flex-start;
     margin-top: -32px;
 }
+
+.friends img {
+    margin-top: -32px;
+}
+
 section .about {
     flex-basis: 30%;
     height: 100%;
