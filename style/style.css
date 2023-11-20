@@ -14,10 +14,6 @@
 
 /* ------------ UTILITIES ------------ */
 
-/*
-
-BEST PRACTISES
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -30,8 +26,6 @@ BEST PRACTISES
 .flex.reverse {
     flex-direction: row-reverse;
 }
-
-*/
 
 .bkg-lightgray {
     background-color: lightgray;
@@ -99,7 +93,7 @@ main > div {
     min-height: 750px;
 }
 
-.main-container {
+.main {
     height: 500px;
     flex-basis: 70%;
     background-color: lightgreen;
@@ -138,7 +132,7 @@ footer {
     justify-content: center;
 }
 
-.footer-container {
+.footer-top, .footer-bottom {
     height: 200px;
     flex-basis: 70%;
     background-color: rgb(0, 61, 0);
@@ -146,10 +140,13 @@ footer {
     
 }
 
+.footer-top {
+    border-bottom: 2px solid #374156;
+}
+
 #about-company {
     height: 750px;
     background-color: black;
-    border-bottom: 1px solid #fff;
 }
 
 #social {
