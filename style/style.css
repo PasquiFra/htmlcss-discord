@@ -6,6 +6,7 @@
     --space-lg: 2rem;
     --space-lg1: 2.5rem;
     --space-xl: 3rem;
+    --space-xxl: 6rem;
     --font-sz-med: 1.2rem;
 }
 
@@ -38,6 +39,9 @@
 .txt-white {
     color: #fff;
 }
+.txt-violet {
+    color: #7289da;
+}
 
 .title-size {
     font-size: var(--space-xl);
@@ -67,7 +71,7 @@ button {
 
 /* NAV */
 
-nav {
+.top-nav {
     min-height: 100px;
     display: flex;
     background-color: #255ee9;
@@ -195,7 +199,7 @@ section .about {
 /* FOOTER */ 
 
 footer {
-    background-color: rgb(117, 21, 21);
+    background-color: #23272a;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -203,30 +207,62 @@ footer {
 }
 
 .footer-top, .footer-bottom {
-    height: 200px;
     flex-basis: 70%;
-    background-color: rgb(0, 61, 0);
     display: flex;
-    
 }
 
 .footer-top {
-    border-bottom: 2px solid #374156;
-}
-
-#about-company {
-    height: 750px;
-    background-color: black;
+    padding: var(--space-xxl) 0 var(--space-lg) 0;
+    border-bottom: 1px solid #8f9fe131;
 }
 
 #social {
     flex-basis: 40%;
-    background-color: antiquewhite;
     border: none
+}
+#social h4 {
+    font-size: var(--space-ml);
+    font-weight: bold;
+    padding: 0 0 var(--space-ml) 0;
+}
+.ita-flag {
+    height: 1rem;
+    padding-top: 2px;
+}
+.lang {
+    border-style: none;
+    background: none;
 }
 .navigazione {
     flex-basis: 15%;
-    background-color: #fff;
     height: 100%;
-    border: 1px solid blue;
+}
+
+.social-icons img {
+    background-color: #ffffff00;
+    height: 1.5rem;
+    margin: 10px 5px 0 5px;
+}
+
+footer h4 {
+    font-size: var(--font-sz-med);
+}
+
+ul * {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.footer-bottom {
+    margin: var(--space-lg) 0 var(--space-xxl) 0;
+    justify-content: space-between;
+}
+
+.register {
+    background-color: #8fa0e1;
+}
+
+a {
+    text-decoration: none;
 }
