@@ -44,6 +44,11 @@
     font-weight: 700;
     padding: 0 0 var(--space-ml) 0;
 }
+.subtitle-size {
+    font-size: var(--space-lg1);
+    font-weight: 700;
+    padding: 0 0 var(--space-ml) 0;
+}
 
 .paragraphs {
     font-size: var(--space-md);
@@ -163,8 +168,27 @@ section .about {
 #about-final {
     height: 1000px;
 }
-#about-final .main-container {
-    height: 750px ;
+#about-final section {
+    height: 750px;
+    text-align: center;
+    flex-direction: column;
+}
+.about-content p {
+    padding: 0 30px;
+}
+
+#about-final h4 {
+    background-image: url(../img/stars.svg);
+    background-size: 42%;
+    background-position: top;
+    background-repeat: no-repeat;
+    font-size: var(--space-ml);
+    font-weight: 700;
+    padding: var(--space-ml) 0 var(--space-ml) 0;
+}
+
+#about-final .download-mac {
+    background-color: #8fa0e1;
 }
 
 
