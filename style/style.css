@@ -64,7 +64,7 @@ button {
     cursor:pointer;
     font-size: var(--font-sz-med);
     border-radius: 23px;
-    padding: 12px 1.2rem;
+    padding: 10px 15px;
     border-style: none;
     text-align: center;
 }
@@ -93,6 +93,7 @@ button {
 .login {
     text-align: right;
     flex-basis: 15%;
+    font-size: 16px;
 }
 
 
@@ -127,6 +128,9 @@ header section {
     text-align: center;
 }
 
+.fas {
+    font: 10px solid black;
+}
 
 .open-browser {
     padding: 13px 1.5rem;
@@ -138,11 +142,11 @@ header section {
 
 /* MAIN */
 
-main > div {
+main>div {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 750px;
+    height: 750px;
 }
 .main {
     height: 500px;
@@ -195,6 +199,16 @@ section .about {
     background-color: #8fa0e1;
 }
 
+/* WAVE */ 
+div.wave {
+    background-image: url(../img/wave.svg);
+    height: 150px;
+    opacity: 0.03;
+    width: 100%;
+}
+.upside-down {
+    rotate: 0.5turn;
+}
 
 /* FOOTER */ 
 
@@ -239,7 +253,7 @@ footer {
 }
 
 .social-icons img {
-    background-color: #ffffff00;
+    color: #fff;
     height: 1.5rem;
     margin: 10px 5px 0 5px;
 }
