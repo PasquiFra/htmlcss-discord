@@ -24,21 +24,27 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .flex {
     display: flex;
 }
+
 .flex.reverse {
     flex-direction: row-reverse;
 }
+
 .bkg-lightgray {
     background-color: #f6f7f7;
 }
+
 .bkg-white {
     background-color: #fff;
 }
+
 .txt-white {
     color: #fff;
 }
+
 .txt-violet {
     color: #7289da;
 }
@@ -48,6 +54,7 @@
     font-weight: 700;
     padding: 0 0 var(--space-ml) 0;
 }
+
 .subtitle-size {
     font-size: var(--space-lg1);
     font-weight: 700;
@@ -61,7 +68,7 @@
 }
 
 button {
-    cursor:pointer;
+    cursor: pointer;
     font-size: var(--font-sz-med);
     border-radius: 23px;
     padding: 10px 15px;
@@ -75,7 +82,7 @@ button {
     min-height: 100px;
     display: flex;
     background-color: #255ee9;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding: 30px 0;
 }
@@ -136,6 +143,7 @@ header section {
     padding: 13px 1.5rem;
     background-color: #23272a;
 }
+
 .download-mac {
     padding: 11px 1.5rem;
 }
@@ -148,23 +156,28 @@ main>div {
     justify-content: center;
     height: 750px;
 }
+
 .main {
     height: 500px;
     flex-basis: 70%;
     display: flex;
-    justify-content: flex-start;   
+    justify-content: flex-start;
 }
+
 section .img {
     flex-basis: 70%;
     height: 100%;
 }
+
 .groups img {
     align-self: flex-start;
     margin-top: -32px;
 }
+
 .friends img {
     margin-top: -32px;
 }
+
 .community img {
     margin-top: -15px;
 }
@@ -173,14 +186,17 @@ section .about {
     flex-basis: 30%;
     height: 100%;
 }
+
 #about-final {
     height: 1000px;
 }
+
 #about-final section {
     height: 750px;
     text-align: center;
     flex-direction: column;
 }
+
 .about-content p {
     padding: 0 30px;
 }
@@ -199,18 +215,21 @@ section .about {
     background-color: #8fa0e1;
 }
 
-/* WAVE */ 
-div.wave {
+/* WAVE */
+.wave {
     background-image: url(../img/wave.svg);
     height: 150px;
     opacity: 0.03;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .upside-down {
     rotate: 0.5turn;
 }
 
-/* FOOTER */ 
+/* FOOTER */
 
 footer {
     background-color: #23272a;
@@ -220,7 +239,8 @@ footer {
     justify-content: center;
 }
 
-.footer-top, .footer-bottom {
+.footer-top,
+.footer-bottom {
     flex-basis: 70%;
     display: flex;
 }
@@ -234,19 +254,23 @@ footer {
     flex-basis: 40%;
     border: none
 }
+
 #social h4 {
     font-size: var(--space-ml);
     font-weight: bold;
     padding: 0 0 var(--space-ml) 0;
 }
+
 .ita-flag {
     height: 1rem;
     padding-top: 2px;
 }
+
 .lang {
     border-style: none;
     background: none;
 }
+
 .navigazione {
     flex-basis: 15%;
     height: 100%;
